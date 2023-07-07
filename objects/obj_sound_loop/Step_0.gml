@@ -2,9 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 4245D4AA
 /// @DnDComment : If the player does not exist$(13_10)(meaning it has been defeated)
-/// @DnDArgument : "obj" "obj_player"
+/// @DnDArgument : "obj" "obj_dude"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "obj" "obj_player"
+/// @DnDSaveInfo : "obj" "obj_dude"
 var l4245D4AA_0 = false;
 l4245D4AA_0 = instance_exists(obj_dude);
 if(!l4245D4AA_0)
@@ -22,7 +22,7 @@ if(!l4245D4AA_0)
 /// @DnDHash : 54B48378
 /// @DnDComment : Get the distance from this instance$(13_10)to the player.
 /// @DnDArgument : "var" "distance"
-/// @DnDArgument : "value" "point_distance(x, y, obj_player.x, obj_player.y)"
+/// @DnDArgument : "value" "point_distance(x, y, obj_dude.x, obj_dude.y)"
 var distance = point_distance(x, y, obj_dude.x, obj_dude.y);
 
 /// @DnDAction : YoYo Games.Common.If_Variable

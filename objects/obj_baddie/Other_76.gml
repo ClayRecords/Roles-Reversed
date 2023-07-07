@@ -21,8 +21,8 @@ if(message == "baddie_step")
 	/// @DnDHash : 24164087
 	/// @DnDComment : This condition checks if the player instance exists.
 	/// @DnDParent : 7FEC6E7B
-	/// @DnDArgument : "obj" "obj_player"
-	/// @DnDSaveInfo : "obj" "obj_player"
+	/// @DnDArgument : "obj" "obj_dude"
+	/// @DnDSaveInfo : "obj" "obj_dude"
 	var l24164087_0 = false;
 	l24164087_0 = instance_exists(obj_dude);
 	if(l24164087_0)
@@ -33,7 +33,7 @@ if(message == "baddie_step")
 		/// @DnDComment : This gets the distance from this baddie instance$(13_10)to the player.
 		/// @DnDParent : 24164087
 		/// @DnDArgument : "var" "distance"
-		/// @DnDArgument : "value" "point_distance(x, y, obj_player.x, obj_player.y)"
+		/// @DnDArgument : "value" "point_distance(x, y, obj_dude.x, obj_dude.y)"
 		var distance = point_distance(x, y, obj_dude.x, obj_dude.y);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
