@@ -461,7 +461,7 @@
         {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"EnemyPath1","colour":4278222847,"depth":-11600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"pathId":{"name":"path_enemy_1","path":"paths/path_enemy_1/path_enemy_1.yy",},"properties":[],"userdefinedDepth":false,"visible":true,},
       ],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":-11500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5981A425","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5981A425","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dude","path":"objects/obj_dude/obj_dude.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DA33C4A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"propertyId":{"name":"path_to_follow","path":"objects/obj_baddie/obj_baddie.yy",},"value":"path_enemy_1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1086.0,"y":546.0,},
@@ -703,7 +703,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":640,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"vborder":360,"visible":true,"vspeed":-1,"wport":1280,"wview":1280,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":640,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"obj_dude","path":"objects/obj_dude/obj_dude.yy",},"vborder":360,"visible":true,"vspeed":-1,"wport":1280,"wview":1280,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
