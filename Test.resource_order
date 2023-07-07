@@ -62,7 +62,7 @@
     {"name":"spr_black_background","order":9,"path":"sprites/spr_black_background/spr_black_background.yy",},
     {"name":"spr_logo","order":4,"path":"sprites/spr_logo/spr_logo.yy",},
     {"name":"set_obj_sprite_size","order":5,"path":"scripts/set_obj_sprite_size/set_obj_sprite_size.yy",},
-    {"name":"rm_lvl_1","order":4,"path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
+    {"name":"rm_lvl_1","order":22,"path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
     {"name":"obj_pillar_half","order":7,"path":"objects/obj_pillar_half/obj_pillar_half.yy",},
     {"name":"spr_gate_gold_2","order":10,"path":"sprites/spr_gate_gold_2/spr_gate_gold_2.yy",},
     {"name":"spr_bat_projectile","order":1,"path":"sprites/spr_bat_projectile/spr_bat_projectile.yy",},
