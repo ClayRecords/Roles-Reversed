@@ -1,10 +1,14 @@
+/// @DnDAction : YoYo Games.Common.Return
+/// @DnDVersion : 1
+/// @DnDHash : 737B12ED
+return;
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 4CC419CD
 /// @DnDArgument : "obj" "obj_player"
-/// @DnDSaveInfo : "obj" "obj_player"
 var l4CC419CD_0 = false;
-l4CC419CD_0 = instance_exists(obj_dude);
+l4CC419CD_0 = instance_exists(obj_player);
 if(l4CC419CD_0)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
@@ -36,5 +40,5 @@ if(l4CC419CD_0)
 	/// @DnDArgument : "y" "15"
 	/// @DnDArgument : "caption" ""x""
 	/// @DnDArgument : "var" "obj_player.coins"
-	draw_text(1135, 15, string("x") + string(obj_dude.coins));
+	draw_text(1135, 15, string("x") + string(obj_player.coins));
 }
