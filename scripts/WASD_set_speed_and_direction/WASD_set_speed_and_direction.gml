@@ -25,4 +25,5 @@ function WASD_set_speed_and_direction(obj, move_speed) {
 			obj.direction = direction_vertical_sign == 0 ? horizontal_angle : vertical_angle;
 		}
 	}
+	print("hello");
 }
