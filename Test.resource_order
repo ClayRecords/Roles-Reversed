@@ -10,6 +10,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_barrel_big","order":3,"path":"objects/obj_barrel_big/obj_barrel_big.yy",},
+    {"name":"Sprite62","order":22,"path":"sprites/Sprite62/Sprite62.yy",},
     {"name":"spr_sword_attack","order":5,"path":"sprites/spr_sword_attack/spr_sword_attack.yy",},
     {"name":"path_enemy_2","order":1,"path":"paths/path_enemy_2/path_enemy_2.yy",},
     {"name":"snd_gate_iron_open","order":11,"path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},
@@ -26,6 +27,7 @@
     {"name":"spr_baddie_walk_down","order":1,"path":"sprites/spr_baddie_walk_down/spr_baddie_walk_down.yy",},
     {"name":"spr_tileset_floor","order":1,"path":"sprites/spr_tileset_floor/spr_tileset_floor.yy",},
     {"name":"snd_shield_loop","order":5,"path":"sounds/snd_shield_loop/snd_shield_loop.yy",},
+    {"name":"obj_coin","order":4,"path":"objects/obj_coin/obj_coin.yy",},
     {"name":"spr_help_window","order":7,"path":"sprites/spr_help_window/spr_help_window.yy",},
     {"name":"spr_logo_white","order":5,"path":"sprites/spr_logo_white/spr_logo_white.yy",},
     {"name":"spr_entrance","order":7,"path":"sprites/spr_entrance/spr_entrance.yy",},
@@ -36,6 +38,7 @@
     {"name":"snd_bat_defeat","order":8,"path":"sounds/snd_bat_defeat/snd_bat_defeat.yy",},
     {"name":"path_enemy_3","order":2,"path":"paths/path_enemy_3/path_enemy_3.yy",},
     {"name":"spr_gate_iron_1","order":5,"path":"sprites/spr_gate_iron_1/spr_gate_iron_1.yy",},
+    {"name":"obj_player_chest","order":3,"path":"objects/obj_player_chest/obj_player_chest.yy",},
     {"name":"spr_player_walk_down","order":4,"path":"sprites/spr_player_walk_down/spr_player_walk_down.yy",},
     {"name":"spr_pillar_whole","order":5,"path":"sprites/spr_pillar_whole/spr_pillar_whole.yy",},
     {"name":"spr_torch_off","order":6,"path":"sprites/spr_torch_off/spr_torch_off.yy",},
