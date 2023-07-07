@@ -24,7 +24,7 @@ if(message == "baddie_step")
 	/// @DnDArgument : "obj" "obj_player"
 	/// @DnDSaveInfo : "obj" "obj_player"
 	var l24164087_0 = false;
-	l24164087_0 = instance_exists(obj_player);
+	l24164087_0 = instance_exists(obj_dude);
 	if(l24164087_0)
 	{
 		/// @DnDAction : YoYo Games.Common.Temp_Variable
@@ -34,7 +34,7 @@ if(message == "baddie_step")
 		/// @DnDParent : 24164087
 		/// @DnDArgument : "var" "distance"
 		/// @DnDArgument : "value" "point_distance(x, y, obj_player.x, obj_player.y)"
-		var distance = point_distance(x, y, obj_player.x, obj_player.y);
+		var distance = point_distance(x, y, obj_dude.x, obj_dude.y);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

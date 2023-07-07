@@ -6,7 +6,7 @@
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "obj" "obj_player"
 var l4245D4AA_0 = false;
-l4245D4AA_0 = instance_exists(obj_player);
+l4245D4AA_0 = instance_exists(obj_dude);
 if(!l4245D4AA_0)
 {
 	/// @DnDAction : YoYo Games.Common.Exit_Event
@@ -23,7 +23,7 @@ if(!l4245D4AA_0)
 /// @DnDComment : Get the distance from this instance$(13_10)to the player.
 /// @DnDArgument : "var" "distance"
 /// @DnDArgument : "value" "point_distance(x, y, obj_player.x, obj_player.y)"
-var distance = point_distance(x, y, obj_player.x, obj_player.y);
+var distance = point_distance(x, y, obj_dude.x, obj_dude.y);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

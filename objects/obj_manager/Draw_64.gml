@@ -4,7 +4,7 @@
 /// @DnDArgument : "obj" "obj_player"
 /// @DnDSaveInfo : "obj" "obj_player"
 var l4CC419CD_0 = false;
-l4CC419CD_0 = instance_exists(obj_player);
+l4CC419CD_0 = instance_exists(obj_dude);
 if(l4CC419CD_0)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
@@ -36,5 +36,5 @@ if(l4CC419CD_0)
 	/// @DnDArgument : "y" "15"
 	/// @DnDArgument : "caption" ""x""
 	/// @DnDArgument : "var" "obj_player.coins"
-	draw_text(1135, 15, string("x") + string(obj_player.coins));
+	draw_text(1135, 15, string("x") + string(obj_dude.coins));
 }

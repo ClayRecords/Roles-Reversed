@@ -13,7 +13,7 @@
 /// @DnDArgument : "obj" "obj_player"
 /// @DnDArgument : "shape" "2"
 /// @DnDSaveInfo : "obj" "obj_player"
-var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_player, true, 1);
+var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_dude, true, 1);
 if((l563A63E1_0))
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -49,7 +49,7 @@ if((l563A63E1_0))
 		/// @DnDParent : 7C32DED1
 		/// @DnDArgument : "var" "dist_x"
 		/// @DnDArgument : "value" "obj_player.x - x"
-		var dist_x = obj_player.x - x;
+		var dist_x = obj_dude.x - x;
 	
 		/// @DnDAction : YoYo Games.Common.Temp_Variable
 		/// @DnDVersion : 1
@@ -58,7 +58,7 @@ if((l563A63E1_0))
 		/// @DnDParent : 7C32DED1
 		/// @DnDArgument : "var" "dist_y"
 		/// @DnDArgument : "value" "obj_player.y - y"
-		var dist_y = obj_player.y - y;
+		var dist_y = obj_dude.y - y;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
