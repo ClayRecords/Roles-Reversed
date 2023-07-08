@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 2B01797B
+/// @DnDArgument : "function" "print"
+/// @DnDArgument : "arg" ""here""
+print("here");
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 4CC419CD

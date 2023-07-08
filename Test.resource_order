@@ -86,6 +86,7 @@
     {"name":"snd_torch","order":7,"path":"sounds/snd_torch/snd_torch.yy",},
     {"name":"ts_animations","order":2,"path":"tilesets/ts_animations/ts_animations.yy",},
     {"name":"spr_spikefloor_holes","order":2,"path":"sprites/spr_spikefloor_holes/spr_spikefloor_holes.yy",},
+    {"name":"fnt_help","order":2,"path":"fonts/fnt_help/fnt_help.yy",},
     {"name":"snd_powerup","order":1,"path":"sounds/snd_powerup/snd_powerup.yy",},
     {"name":"spr_key","order":1,"path":"sprites/spr_key/spr_key.yy",},
     {"name":"spr_bones_pile_1","order":1,"path":"sprites/spr_bones_pile_1/spr_bones_pile_1.yy",},

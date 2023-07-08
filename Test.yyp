@@ -134,6 +134,7 @@
     {"id":{"name":"snd_torch","path":"sounds/snd_torch/snd_torch.yy",},},
     {"id":{"name":"ts_animations","path":"tilesets/ts_animations/ts_animations.yy",},},
     {"id":{"name":"spr_spikefloor_holes","path":"sprites/spr_spikefloor_holes/spr_spikefloor_holes.yy",},},
+    {"id":{"name":"fnt_help","path":"fonts/fnt_help/fnt_help.yy",},},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
     {"id":{"name":"spr_bones_pile_1","path":"sprites/spr_bones_pile_1/spr_bones_pile_1.yy",},},
