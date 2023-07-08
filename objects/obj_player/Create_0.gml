@@ -10,6 +10,6 @@ move_speed = 4;
 /// @DnDVersion : 1
 /// @DnDHash : 094CA1E3
 /// @DnDComment : Initialize coins value at 0
-/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr" "starting_coins"
 /// @DnDArgument : "var" "coins"
-coins = 1;
+coins = starting_coins;
