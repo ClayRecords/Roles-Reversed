@@ -115,6 +115,7 @@
     {"name":"obj_quit_button","order":1,"path":"objects/obj_quit_button/obj_quit_button.yy",},
     {"name":"WASD_set_speed_and_direction","order":2,"path":"scripts/WASD_set_speed_and_direction/WASD_set_speed_and_direction.yy",},
     {"name":"obj_button_parent","order":3,"path":"objects/obj_button_parent/obj_button_parent.yy",},
+    {"name":"spr_player_Goblin","order":8,"path":"sprites/spr_player_Goblin/spr_player_Goblin.yy",},
     {"name":"spr_next_level","order":13,"path":"sprites/spr_next_level/spr_next_level.yy",},
     {"name":"snd_finish_level","order":2,"path":"sounds/snd_finish_level/snd_finish_level.yy",},
     {"name":"snd_music_rampage","order":3,"path":"sounds/snd_music_rampage/snd_music_rampage.yy",},

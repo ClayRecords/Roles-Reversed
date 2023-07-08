@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_barrel_big",
-    "path": "sprites/spr_barrel_big/spr_barrel_big.yy",
+    "name": "spr_player_Goblin",
+    "path": "sprites/spr_player_Goblin/spr_player_Goblin.yy",
   },
   "spriteMaskId": null,
   "visible": true,

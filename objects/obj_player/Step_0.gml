@@ -21,9 +21,9 @@ if (l2DDC7821_0)
 	/// @DnDComment : Walk to side sprite
 	/// @DnDParent : 2DDC7821
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_barrel_big"
-	/// @DnDSaveInfo : "spriteind" "spr_barrel_big"
-	sprite_index = spr_barrel_big;
+	/// @DnDArgument : "spriteind" "spr_player_Goblin"
+	/// @DnDSaveInfo : "spriteind" "spr_player_Goblin"
+	sprite_index = spr_player_Goblin;
 	image_index += 0;
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
@@ -59,9 +59,9 @@ if (l0492F558_0)
 	/// @DnDComment : Walk to side sprite
 	/// @DnDParent : 0492F558
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_barrel_big"
-	/// @DnDSaveInfo : "spriteind" "spr_barrel_big"
-	sprite_index = spr_barrel_big;
+	/// @DnDArgument : "spriteind" "spr_player_Goblin"
+	/// @DnDSaveInfo : "spriteind" "spr_player_Goblin"
+	sprite_index = spr_player_Goblin;
 	image_index += 0;
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
@@ -97,9 +97,9 @@ if (l05EC6B18_0)
 	/// @DnDComment : Walk up sprite
 	/// @DnDParent : 05EC6B18
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_barrel_big"
-	/// @DnDSaveInfo : "spriteind" "spr_barrel_big"
-	sprite_index = spr_barrel_big;
+	/// @DnDArgument : "spriteind" "spr_player_Goblin"
+	/// @DnDSaveInfo : "spriteind" "spr_player_Goblin"
+	sprite_index = spr_player_Goblin;
 	image_index += 0;
 }
 
@@ -127,9 +127,9 @@ if (l733C29C3_0)
 	/// @DnDComment : Walk down sprite
 	/// @DnDParent : 733C29C3
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_barrel_big"
-	/// @DnDSaveInfo : "spriteind" "spr_barrel_big"
-	sprite_index = spr_barrel_big;
+	/// @DnDArgument : "spriteind" "spr_player_Goblin"
+	/// @DnDSaveInfo : "spriteind" "spr_player_Goblin"
+	sprite_index = spr_player_Goblin;
 	image_index += 0;
 }
 
