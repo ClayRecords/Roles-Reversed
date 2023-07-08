@@ -1,12 +1,8 @@
-/// @DnDAction : YoYo Games.Common.Return
-/// @DnDVersion : 1
-/// @DnDHash : 737B12ED
-return;
-
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 4CC419CD
 /// @DnDArgument : "obj" "obj_player"
+/// @DnDSaveInfo : "obj" "obj_player"
 var l4CC419CD_0 = false;
 l4CC419CD_0 = instance_exists(obj_player);
 if(l4CC419CD_0)
