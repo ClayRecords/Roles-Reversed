@@ -17,6 +17,37 @@ function find_path_torches(_path) {
 	return _path_torches;
 }
 
+function find_highest_attractor() {
+	ds_list_clear(all_nearby_objects);
+	
+	var _current_attractor = noone;
+
+	var _num = collision_circle_list(x, y, vision_range, obj_attractable_parent, false, true, all_nearby_objects, true);
+	if (_num) {
+		_current_attractor = ds_list_find_value(all_nearby_objects, 0);
+		var _current_attractor_dist = point_distance(x, y, _current_attractor.x, _current_attractor.y);
+	
+		for (var i = 1; i < ds_list_size(all_nearby_objects); i++) {
+		    var _obj = ds_list_find_value(all_nearby_objects, i);
+		
+			if (_obj.attraction_weight > _current_attractor.attraction_weight) {
+				// Higher attraction
+				_current_attractor = _obj;
+				_current_attractor_dist = point_distance(x, y, _obj.x, _obj.y);
+			} else if (_current_attractor.attraction_weight == _obj.attraction_weight) {
+				var _obj_dist = point_distance(x, y, _obj.x, _obj.y);
+				if (_obj_dist < _current_attractor_dist) {
+					// Closer
+					_current_attractor = _obj;
+					_current_attractor_dist = _obj_dist;
+				}
+			}
+		}
+	}
+	
+	return _current_attractor;
+}
+
 function change_sprite_for_direction_and_speed() {
 	if (speed == 0) {
 		sprite_index = spr_player_idle;
@@ -48,8 +79,6 @@ function change_sprite_for_direction_and_speed() {
 create_torch();
 image_xscale = 1;
 sprite_index = spr_player_idle;
-current_attractor = noone; // The item we are going to
 all_nearby_objects = ds_list_create();
 
 starting_path_torches = find_path_torches(starting_path);
-//start_on_path(starting_path);
