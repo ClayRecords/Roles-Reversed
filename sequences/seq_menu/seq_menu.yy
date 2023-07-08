@@ -48,8 +48,8 @@
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"eff6a2bf-6498-483b-95dc-f36b537ee37c","IsCreationKey":true,"Key":4.0,"Length":1.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4287973618,"tracks":[],"traits":0,},
       ],"traits":0,},
-    {"resourceType":"GMInstanceTrack","resourceVersion":"1.0","name":"obj_quit_button","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"1.0","Keyframes":[
-          {"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetInstanceKeyframe","resourceVersion":"1.0","Id":{"name":"obj_tut_button","path":"objects/obj_tut_button/obj_tut_button.yy",},},},"Disabled":false,"id":"63138548-ad8d-4197-832f-a35e8f8d3f17","IsCreationKey":false,"Key":27.0,"Length":33.0,"Stretch":false,},
+    {"resourceType":"GMInstanceTrack","resourceVersion":"1.0","name":"obj_help_button","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"1.0","Keyframes":[
+          {"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetInstanceKeyframe","resourceVersion":"1.0","Id":{"name":"obj_help_button","path":"objects/obj_help_button/obj_help_button.yy",},},},"Disabled":false,"id":"63138548-ad8d-4197-832f-a35e8f8d3f17","IsCreationKey":false,"Key":27.0,"Length":33.0,"Stretch":false,},
         ],},"modifiers":[],"trackColour":4282931442,"tracks":[
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"5e1f5421-5363-4c1c-bb96-709c0c818e59","IsCreationKey":true,"Key":27.0,"Length":1.0,"Stretch":false,},
@@ -158,6 +158,6 @@
   ],
   "visibleRange": null,
   "volume": 1.0,
-  "xorigin": -640,
-  "yorigin": -360,
+  "xorigin": 0,
+  "yorigin": 0,
 }
