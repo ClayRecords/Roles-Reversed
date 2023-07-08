@@ -1,4 +1,5 @@
 //print(global.game_frame)
+
 // move_to_nearest_visible_coin
 var nearest_coin = instance_nearest(x, y, obj_coin);
 if (nearest_coin != noone && point_distance(x, y, nearest_coin.x, nearest_coin.y) <= vision_range) {
@@ -11,13 +12,27 @@ if (nearest_coin != noone && point_distance(x, y, nearest_coin.x, nearest_coin.y
 if (speed == 0) {
 	sprite_index = spr_player_idle;
 } else {
-	//0/4 = left
-	//1 up
-	//2 left
-	//3 down
-	card_dir = round(direction/90)
-	print(card_dir)
-	sprite_index = spr_player_walk_side;
+	direction_quadrant = round(direction/90);
+	image_xscale = 1;
+	switch (direction_quadrant) {
+	    case 0:
+	    case 4:
+			sprite_index = spr_player_walk_side; // right
+			break;
+		
+		case 1:
+			sprite_index = spr_player_walk_up;
+			break;
+		
+		case 2:
+			sprite_index = spr_player_walk_side;
+			image_xscale = -1;
+			break;
+		
+		case 3:
+			sprite_index = spr_player_walk_down;
+			break;
+	}
 }
 
 
