@@ -34,3 +34,5 @@ function change_sprite_for_direction_and_speed() {
 
 create_torch();
 image_xscale = 1;
+all_nearby_objects = ds_list_create();
+current_attractor = noone

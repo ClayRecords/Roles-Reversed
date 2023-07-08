@@ -6,12 +6,17 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_dude","path":"objects/obj_dude/obj_dude.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_attractable_parent","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"propertyId":{"name":"attraction_priority","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"value":"1",},
+  ],
   "parent": {
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_attractable_parent",
+    "path": "objects/obj_attractable_parent/obj_attractable_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

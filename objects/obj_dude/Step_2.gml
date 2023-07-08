@@ -1,0 +1,1 @@
+change_sprite_for_direction_and_speed();
