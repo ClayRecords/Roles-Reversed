@@ -21,7 +21,7 @@ function change_sprite_for_direction_and_speed() {
 				break;
 		
 			case 2:
-				sprite_index = spr_player_walk_side;
+				sprite_index = spr_player_walk_side; // left
 				image_xscale = -1;
 				break;
 		
@@ -34,5 +34,17 @@ function change_sprite_for_direction_and_speed() {
 
 create_torch();
 image_xscale = 1;
+sprite_index = spr_player_idle;
+
 all_nearby_objects = ds_list_create();
-current_attractor = noone
+current_attractor = noone;
+
+starting_path_points = ds_list_create();
+for (var i = 0; i < path_get_number(starting_path); i++) {
+	var _point = [path_get_point_x(starting_path, i), path_get_point_y(starting_path, i)];
+	ds_list_add(starting_path_points, _point);
+}
+
+current_path = starting_path;
+path_start(current_path, move_speed, path_action_continue, true);
+

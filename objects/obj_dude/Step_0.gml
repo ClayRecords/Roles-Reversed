@@ -27,7 +27,14 @@ if (_num) {
 	if (global.game_frame mod  15 == 0) {
 		effect_create_above(ef_spark, current_attractor.x + 10, current_attractor.y - 10, 10, c_white)
 	}
+	
+	current_path = noone;
+	path_end()
 	move_towards_point(current_attractor.x, current_attractor.y, move_speed);
 } else {
+	if (current_path == noone) {
+		path_start(starting_path, move_speed, path_action_continue, true);
+		current_path = starting_path;
+	}
 	speed = 0;
 }
