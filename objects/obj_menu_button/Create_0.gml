@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1
-/// @DnDHash : 2F8BED1A
+/// @DnDHash : 2E26133E
 event_inherited();
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4C547D58
-/// @DnDArgument : "expr" ""Quit""
+/// @DnDHash : 06943A3B
+/// @DnDArgument : "expr" ""Menu""
 /// @DnDArgument : "var" "text"
-text = "Quit";
+text = "Menu";
