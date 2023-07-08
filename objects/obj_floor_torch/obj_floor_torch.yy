@@ -1,14 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_coin",
+  "name": "obj_floor_torch",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_dude","path":"objects/obj_dude/obj_dude.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_attractable_parent","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"propertyId":{"name":"attraction_weight","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"value":"100",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_attractable_parent","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"propertyId":{"name":"attraction_weight","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"value":"0",},
   ],
   "parent": {
     "name": "Game",
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_coin",
-    "path": "sprites/spr_coin/spr_coin.yy",
+    "name": "spr_floor_torch",
+    "path": "sprites/spr_floor_torch/spr_floor_torch.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -4,16 +4,17 @@ function create_torch() {
 	set_obj_sprite_size(dude_torch, vision_range * 2, vision_range * 2);
 }
 
-function start_on_path(_path) {
-	current_path = _path;
-	speed = move_speed;
-	path_start(_path, move_speed, path_action_continue, true);
-}
-
-function end_path() {
-	current_path = noone;
-	speed = 0;
-	path_end();
+function find_path_torches(_path) {
+	var _path_torches = ds_list_create();
+	var _last_index = 0;
+	for (var i = 0; i < path_get_number(_path); i++) {
+		_torch = instance_create_layer(path_get_point_x(_path, i), path_get_point_y(_path, i), "Instances", obj_floor_torch);
+		_torch.attraction_weight = i;
+		_last_index = i;
+		ds_list_add(_path_torches, _torch);
+	}
+	obj_next_level.attraction_weight = _last_index + 1;
+	return _path_torches;
 }
 
 function change_sprite_for_direction_and_speed() {
@@ -47,16 +48,8 @@ function change_sprite_for_direction_and_speed() {
 create_torch();
 image_xscale = 1;
 sprite_index = spr_player_idle;
-
-starting_path_points = ds_list_create();
-for (var i = 0; i < path_get_number(starting_path); i++) {
-	var _point = [path_get_point_x(starting_path, i), path_get_point_y(starting_path, i)];
-	ds_list_add(starting_path_points, _point);
-}
-
-start_on_path(starting_path);
-
+current_attractor = noone; // The item we are going to
 all_nearby_objects = ds_list_create();
-current_attractor = noone;
 
-my_speed = 0;
+starting_path_torches = find_path_torches(starting_path);
+//start_on_path(starting_path);

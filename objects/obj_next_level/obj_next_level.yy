@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_attractable_parent","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"propertyId":{"name":"attraction_priority","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"value":"1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_attractable_parent","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"propertyId":{"name":"attraction_weight","path":"objects/obj_attractable_parent/obj_attractable_parent.yy",},"value":"1",},
   ],
   "parent": {
     "name": "Level",
