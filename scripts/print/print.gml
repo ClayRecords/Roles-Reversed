@@ -1,4 +1,9 @@
+function print() {
+    var _str = "";
 
-function print(argument) {
-	show_debug_message(string(argument));
+    for (var i = 0; i < argument_count; i++) {
+        _str += string(argument[i]);
+    }
+
+    show_debug_message(_str);
 }

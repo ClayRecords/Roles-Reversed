@@ -5,7 +5,7 @@ var _current_attractor_dist = -1;
 
 var _num = collision_circle_list(x, y, vision_range, obj_attractable_parent, false, true, all_nearby_objects, true);
 if (_num) {
-	print("there are things attracting me")
+	print("Attractors in sight")
 	current_attractor = ds_list_find_value(all_nearby_objects, 0);
 	_current_attractor_dist = point_distance(x, y, current_attractor.x, current_attractor.y);
 	
@@ -28,13 +28,15 @@ if (_num) {
 		effect_create_above(ef_spark, current_attractor.x + 10, current_attractor.y - 10, 10, c_white)
 	}
 	
-	current_path = noone;
-	path_end()
+	end_path();
 	move_towards_point(current_attractor.x, current_attractor.y, move_speed);
 } else {
+	print("Nothing in sight")
 	if (current_path == noone) {
-		path_start(starting_path, move_speed, path_action_continue, true);
-		current_path = starting_path;
+		speed = 0; // Not on path, where do I go?
+	} else {
+		//start_on_path(starting_path);
 	}
-	speed = 0;
 }
+
+my_speed = speed; // Maintain speed to End Step

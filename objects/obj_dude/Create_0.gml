@@ -4,6 +4,18 @@ function create_torch() {
 	set_obj_sprite_size(dude_torch, vision_range * 2, vision_range * 2);
 }
 
+function start_on_path(_path) {
+	current_path = _path;
+	speed = move_speed;
+	path_start(_path, move_speed, path_action_continue, true);
+}
+
+function end_path() {
+	current_path = noone;
+	speed = 0;
+	path_end();
+}
+
 function change_sprite_for_direction_and_speed() {
 	if (speed == 0) {
 		sprite_index = spr_player_idle;
@@ -36,15 +48,15 @@ create_torch();
 image_xscale = 1;
 sprite_index = spr_player_idle;
 
-all_nearby_objects = ds_list_create();
-current_attractor = noone;
-
 starting_path_points = ds_list_create();
 for (var i = 0; i < path_get_number(starting_path); i++) {
 	var _point = [path_get_point_x(starting_path, i), path_get_point_y(starting_path, i)];
 	ds_list_add(starting_path_points, _point);
 }
 
-current_path = starting_path;
-path_start(current_path, move_speed, path_action_continue, true);
+start_on_path(starting_path);
 
+all_nearby_objects = ds_list_create();
+current_attractor = noone;
+
+my_speed = 0;
