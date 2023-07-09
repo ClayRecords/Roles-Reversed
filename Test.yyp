@@ -128,6 +128,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"pth_dude","path":"paths/pth_dude/pth_dude.yy",},},
     {"id":{"name":"obj_barrel_small","path":"objects/obj_barrel_small/obj_barrel_small.yy",},},
+    {"id":{"name":"obj_to_obj_LOS","path":"scripts/obj_to_obj_LOS/obj_to_obj_LOS.yy",},},
     {"id":{"name":"snd_shield_activate","path":"sounds/snd_shield_activate/snd_shield_activate.yy",},},
     {"id":{"name":"obj_pillar_whole","path":"objects/obj_pillar_whole/obj_pillar_whole.yy",},},
     {"id":{"name":"get_close_to_collision","path":"scripts/get_close_to_collision/get_close_to_collision.yy",},},

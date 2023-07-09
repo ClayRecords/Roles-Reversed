@@ -80,6 +80,7 @@
     {"name":"seq_pause_menu","order":1,"path":"sequences/seq_pause_menu/seq_pause_menu.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"obj_barrel_small","order":1,"path":"objects/obj_barrel_small/obj_barrel_small.yy",},
+    {"name":"obj_to_obj_LOS","order":8,"path":"scripts/obj_to_obj_LOS/obj_to_obj_LOS.yy",},
     {"name":"snd_shield_activate","order":3,"path":"sounds/snd_shield_activate/snd_shield_activate.yy",},
     {"name":"obj_pillar_whole","order":8,"path":"objects/obj_pillar_whole/obj_pillar_whole.yy",},
     {"name":"get_close_to_collision","order":4,"path":"scripts/get_close_to_collision/get_close_to_collision.yy",},

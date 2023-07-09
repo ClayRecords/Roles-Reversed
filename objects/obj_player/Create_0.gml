@@ -13,3 +13,11 @@ move_speed = 4;
 /// @DnDArgument : "expr" "starting_coins"
 /// @DnDArgument : "var" "coins"
 coins = starting_coins;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 38E7E294
+/// @DnDComment : Friction slows the player's speed$(13_10)down over time until they stop.
+/// @DnDArgument : "expr" ".5"
+/// @DnDArgument : "var" "friction"
+friction = .5;

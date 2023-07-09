@@ -4,8 +4,6 @@ var _current_attractor = find_highest_attractor()
 if (_current_attractor != noone) {
 	print("Attractors in sight")
 	
-	
-	
 	if (point_distance(x, y, _current_attractor.x, _current_attractor.y) <= speed ) {
 		x = _current_attractor.x;
 		y = _current_attractor.y;
