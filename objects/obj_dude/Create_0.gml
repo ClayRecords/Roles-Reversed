@@ -4,7 +4,7 @@ function create_torch() {
 	set_obj_sprite_size(dude_torch, vision_range * 2, vision_range * 2);
 }
 
-function find_path_torches(_path) {
+function create_path_torches(_path) {
 	var _path_torches = ds_list_create();
 	var _last_index = 0;
 	for (var i = 0; i < path_get_number(_path); i++) {
@@ -81,7 +81,7 @@ image_xscale = 1;
 speed = 1;
 all_nearby_objects = ds_list_create();
 current_attractor = noone;
-starting_path_torches = find_path_torches(level_path);
+starting_path_torches = create_path_torches(level_path);
 
 
 // Starting behind door animations
@@ -92,11 +92,8 @@ alarm[1] = (room_speed * start_timer);
 
 function start(){
 	if(current_path!=noone){
-		print("PATH END")
-		print("---------------------------------")
 		path_end();
 		current_path = noone;
-		print("GO")
 		new_door = instance_create_layer(obj_start_door.x, obj_start_door.y, "Instances", obj_start_door_open);
 		set_obj_sprite_size(new_door, sprite_width, sprite_height)
 		instance_destroy(obj_start_door);
