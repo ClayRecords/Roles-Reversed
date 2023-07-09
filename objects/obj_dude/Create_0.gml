@@ -81,7 +81,7 @@ image_xscale = 1;
 speed = 1;
 all_nearby_objects = ds_list_create();
 
-starting_path_torches = find_path_torches(starting_path);
+starting_path_torches = find_path_torches(level_path);
 
 
 

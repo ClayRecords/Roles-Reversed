@@ -38,7 +38,7 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"move_speed","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"2.75","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"vision_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"200","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"starting_path","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"pth_dude","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"level_path","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"pth_dude_1","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"start_timer","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"5","varType":0,},
   ],
   "solid": false,
