@@ -78,7 +78,13 @@ function change_sprite_for_direction_and_speed() {
 
 create_torch();
 image_xscale = 1;
-sprite_index = spr_player_idle;
+speed = 1;
 all_nearby_objects = ds_list_create();
 
 starting_path_torches = find_path_torches(starting_path);
+
+
+
+sprite_index = spr_player_walk_down;
+current_path = path_start(path_dude_start, 1.5, path_action_stop, true);
+alarm[1] = (room_speed * 5);
