@@ -63,6 +63,7 @@
   "resources": [
     {"id":{"name":"print","path":"scripts/print/print.yy",},},
     {"id":{"name":"obj_barrel_big","path":"objects/obj_barrel_big/obj_barrel_big.yy",},},
+    {"id":{"name":"obj_start_door","path":"objects/obj_start_door/obj_start_door.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},},
     {"id":{"name":"spr_sword_attack","path":"sprites/spr_sword_attack/spr_sword_attack.yy",},},

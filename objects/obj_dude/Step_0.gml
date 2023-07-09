@@ -28,5 +28,7 @@ if (current_path == noone) {
 	print("Not on path")
 	find_and_move_to_attractor();
 } else {
-	print(current_path)
+	if (path_position == 1) {
+		sprite_index = spr_player_idle;
+    }
 }

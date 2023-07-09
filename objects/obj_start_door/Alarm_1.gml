@@ -1,0 +1,1 @@
+sprite_set_speed(sprite_index, 15, spritespeed_framespersecond);
