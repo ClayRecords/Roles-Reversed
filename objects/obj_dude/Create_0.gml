@@ -96,7 +96,6 @@ function start(){
 		print("---------------------------------")
 		path_end();
 		current_path = noone;
-		obj_start_door.
 		print("GO")
 		new_door = instance_create_layer(obj_start_door.x, obj_start_door.y, "Instances", obj_start_door_open);
 		set_obj_sprite_size(new_door, sprite_width, sprite_height)
