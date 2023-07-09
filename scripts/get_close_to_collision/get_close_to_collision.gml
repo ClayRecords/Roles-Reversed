@@ -1,9 +1,13 @@
+function would_be_collision(_obj) {
+	var speed_x_1 = lengthdir_x(1, _obj.direction) * _obj.speed;
+	var speed_y_1 = lengthdir_y(1, _obj.direction) * _obj.speed;
+	
+	with (_obj) {
+		return collision_rectangle(_obj.bbox_left, _obj.bbox_top, _obj.bbox_right, _obj.bbox_bottom, obj_collision_parent, false, true);
+	}
+}
 
 function get_close_to_collision(obj) {
-	// Reset player back to previous location
-	obj.x = obj.xprevious;
-	obj.y = obj.yprevious;
-
 	// Split the direction into x and y components for 1 unit
 	var speed_x_1 = lengthdir_x(1, obj.direction);
 	var speed_y_1 = lengthdir_y(1, obj.direction);

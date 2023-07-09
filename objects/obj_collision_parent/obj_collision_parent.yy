@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_collision_parent",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
