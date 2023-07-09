@@ -1,7 +1,7 @@
 {
   "resourceType": "GMPath",
   "resourceVersion": "1.0",
-  "name": "path_dude_start",
+  "name": "pth_dude_start",
   "closed": false,
   "kind": 0,
   "parent": {
