@@ -35,7 +35,7 @@ function draw_dotted_lines_between_objects(_list) {
 }
 
 draw_self();
-draw_circle(x, y, vision_range, true);
-draw_dude_path();
+//draw_circle(x, y, vision_range, true);
+//draw_dude_path();
 //draw_line_to_current_attractor();
 //draw_line_to_nearby_objects();

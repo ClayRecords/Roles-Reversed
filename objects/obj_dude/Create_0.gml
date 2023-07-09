@@ -89,3 +89,17 @@ sprite_index = spr_player_walk_down;
 current_path = pth_dude_start;
 path_start(pth_dude_start, 1.5, path_action_stop, true);
 alarm[1] = (room_speed * start_timer);
+
+function start(){
+	if(current_path!=noone){
+		print("PATH END")
+		print("---------------------------------")
+		path_end();
+		current_path = noone;
+		obj_start_door.
+		print("GO")
+		new_door = instance_create_layer(obj_start_door.x, obj_start_door.y, "Instances", obj_start_door_open);
+		set_obj_sprite_size(new_door, sprite_width, sprite_height)
+		instance_destroy(obj_start_door);
+	}
+}
