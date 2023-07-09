@@ -1,27 +1,27 @@
-draw_self();
-draw_circle(x, y, vision_range, true);
 
-
-for (var i = 0; i < ds_list_size(all_nearby_objects); i++) {
-    var _obj = ds_list_find_value(all_nearby_objects, i);
-	if (instance_exists(_obj)) {
-		draw_line(x, y, _obj.x, _obj.y);
+function draw_line_to_current_attractor() {
+	if (current_attractor != noone && instance_exists(current_attractor)) {
+		draw_line(x, y, current_attractor.x, current_attractor.y);
 	}
 }
 
-
+function draw_line_to_nearby_objects() {
+	for (var i = 0; i < ds_list_size(all_nearby_objects); i++) {
+	    var _obj = ds_list_find_value(all_nearby_objects, i);
+		if (instance_exists(_obj)) {
+			draw_line(x, y, _obj.x, _obj.y);
+		}
+	}
+}
 
 function draw_dude_path() {
 	for (var i = 0; i < ds_list_size(starting_path_torches); i++) {
 	    var _torch = ds_list_find_value(starting_path_torches, i);
-		draw_circle(_torch.x, _torch.y, 5, false);
+		//draw_circle(_torch.x, _torch.y, 5, false);
 	}
 	draw_dotted_lines_between_objects(starting_path_torches);
 }
 
-/// @function draw_dotted_lines_between_objects(_list)
-/// @param {ds_list} _list The DS list containing the objects.
-/// @description Draws lines between each object in the list.
 function draw_dotted_lines_between_objects(_list) {
 	var _size = ds_list_size(_list);
 	if (_size < 2) return;  // Can't draw lines if fewer than 2 objects
@@ -34,13 +34,8 @@ function draw_dotted_lines_between_objects(_list) {
 	}
 }
 
-
-function nearest(_list) {
-	for (var i = 0; i < ds_list_size(_list); i++) {
-	    var _point = ds_list_find_value(_list, i);
-		var _point_dist = point_distance(x, y, _point[0], _point[1]);		
-	}
-}
-
-
-draw_dude_path()
+draw_self();
+draw_circle(x, y, vision_range, true);
+draw_dude_path();
+draw_line_to_current_attractor();
+//draw_line_to_nearby_objects();

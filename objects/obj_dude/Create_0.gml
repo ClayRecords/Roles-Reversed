@@ -80,11 +80,11 @@ create_torch();
 image_xscale = 1;
 speed = 1;
 all_nearby_objects = ds_list_create();
-
+current_attractor = noone;
 starting_path_torches = find_path_torches(level_path);
 
 
-
+// Starting behind door animations
 sprite_index = spr_player_walk_down;
 current_path = pth_dude_start;
 path_start(pth_dude_start, 1.5, path_action_stop, true);
