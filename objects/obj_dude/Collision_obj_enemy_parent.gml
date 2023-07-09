@@ -14,15 +14,6 @@ if(alarm[0] < 0)
 	/// @DnDArgument : "var" "move_speed"
 	move_speed = 0;
 
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 345B6ED3
-	/// @DnDParent : 1362B03B
-	/// @DnDArgument : "spriteind" "spr_player_defeated"
-	/// @DnDSaveInfo : "spriteind" "spr_player_defeated"
-	sprite_index = spr_player_defeated;
-	image_index = 0;
-
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 1003E78C

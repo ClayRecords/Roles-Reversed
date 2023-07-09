@@ -32,8 +32,8 @@ draw_set_alpha(l2D080667_0 / $ff);
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "lost_text"
-draw_text(x + 0, y + 0,  + string(lost_text));
+/// @DnDArgument : "var" "text"
+draw_text(x + 0, y + 0,  + string(text));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
