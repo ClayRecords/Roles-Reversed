@@ -4,7 +4,9 @@
   "name": "obj_barrel_big",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_collision_parent","path":"objects/obj_collision_parent/obj_collision_parent.yy",},"propertyId":{"name":"pushable","path":"objects/obj_collision_parent/obj_collision_parent.yy",},"value":"True",},
+  ],
   "parent": {
     "name": "Level",
     "path": "folders/Objects/Level.yy",
