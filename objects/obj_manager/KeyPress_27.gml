@@ -13,37 +13,15 @@ if(obj_help_manager.in_help == false)
 	/// @DnDArgument : "value" "false"
 	if(paused == false)
 	{
-		/// @DnDAction : YoYo Games.Common.Function_Call
-		/// @DnDVersion : 1
-		/// @DnDHash : 1533A8C9
-		/// @DnDParent : 3C0692F8
-		/// @DnDArgument : "var" "camera_x"
-		/// @DnDArgument : "var_temp" "1"
-		/// @DnDArgument : "function" "camera_get_view_x"
-		/// @DnDArgument : "arg" "view_camera"
-		var camera_x = camera_get_view_x(view_camera);
-	
-		/// @DnDAction : YoYo Games.Common.Function_Call
-		/// @DnDVersion : 1
-		/// @DnDHash : 6080103E
-		/// @DnDParent : 3C0692F8
-		/// @DnDArgument : "var" "camera_y"
-		/// @DnDArgument : "var_temp" "1"
-		/// @DnDArgument : "function" "camera_get_view_y"
-		/// @DnDArgument : "arg" "view_camera"
-		var camera_y = camera_get_view_y(view_camera);
-	
 		/// @DnDAction : YoYo Games.Sequences.Sequence_Create
 		/// @DnDVersion : 1
 		/// @DnDHash : 22179D70
 		/// @DnDParent : 3C0692F8
-		/// @DnDArgument : "xpos" "camera_x"
-		/// @DnDArgument : "ypos" "camera_y"
 		/// @DnDArgument : "var" "pause_seq"
 		/// @DnDArgument : "sequenceid" "seq_pause_menu"
 		/// @DnDArgument : "layer" ""GUI""
 		/// @DnDSaveInfo : "sequenceid" "seq_pause_menu"
-		pause_seq = layer_sequence_create("GUI", camera_x, camera_y, seq_pause_menu);
+		pause_seq = layer_sequence_create("GUI", 0, 0, seq_pause_menu);
 	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
