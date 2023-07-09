@@ -188,6 +188,7 @@
     {"id":{"name":"obj_floor_torch","path":"objects/obj_floor_torch/obj_floor_torch.yy",},},
     {"id":{"name":"spr_player_walk_up","path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",},},
     {"id":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
     {"id":{"name":"obj_menu_button","path":"objects/obj_menu_button/obj_menu_button.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},
@@ -196,6 +197,7 @@
     {"id":{"name":"spr_spikefloor_hidden","path":"sprites/spr_spikefloor_hidden/spr_spikefloor_hidden.yy",},},
     {"id":{"name":"spr_gate_iron_2","path":"sprites/spr_gate_iron_2/spr_gate_iron_2.yy",},},
     {"id":{"name":"obj_help_button","path":"objects/obj_help_button/obj_help_button.yy",},},
+    {"id":{"name":"seq_win","path":"sequences/seq_win/seq_win.yy",},},
     {"id":{"name":"spr_hud_coin","path":"sprites/spr_hud_coin/spr_hud_coin.yy",},},
     {"id":{"name":"WASD_set_speed_and_direction","path":"scripts/WASD_set_speed_and_direction/WASD_set_speed_and_direction.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
@@ -220,9 +222,10 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_lvl_3","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},},
     {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
     {"roomId":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
+    {"roomId":{"name":"rm_lvl_3","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
