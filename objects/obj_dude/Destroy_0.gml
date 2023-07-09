@@ -1,1 +1,2 @@
-ds_list_destroy(all_nearby_objects)
+ds_list_destroy(all_nearby_objects);
+ds_list_destroy(all_visible_objects);

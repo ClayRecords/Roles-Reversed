@@ -17,18 +17,39 @@ function create_path_torches(_path) {
 	return _path_torches;
 }
 
-function find_highest_attractor() {
-	ds_list_clear(all_nearby_objects);
-	
-	var _current_attractor = noone;
 
+function find_all_visible_objects() {
+	ds_list_clear(all_nearby_objects);
+	ds_list_clear(all_visible_objects);
+	
+	// all attractors
 	var _num = collision_circle_list(x, y, vision_range, obj_attractable_parent, false, true, all_nearby_objects, true);
 	if (_num) {
-		_current_attractor = ds_list_find_value(all_nearby_objects, 0);
+		for (var i = 0; i < ds_list_size(all_nearby_objects); i++) {
+		    var _obj = ds_list_find_value(all_nearby_objects, i);
+			
+			if (obj_to_obj_bbox_LOS(self, _obj, vision_range)) {
+				// Visible
+				ds_list_add(all_visible_objects, _obj);
+			}
+		}
+	}
+	return all_visible_objects;
+}
+
+function find_highest_attractor() {
+	var _current_attractor = noone;
+	
+	find_all_visible_objects();
+		
+	var _num = ds_list_size(all_visible_objects);
+	if (_num) {
+		// Something is visible
+		_current_attractor = ds_list_find_value(all_visible_objects, 0);
 		var _current_attractor_dist = point_distance(x, y, _current_attractor.x, _current_attractor.y);
 	
-		for (var i = 1; i < ds_list_size(all_nearby_objects); i++) {
-		    var _obj = ds_list_find_value(all_nearby_objects, i);
+		for (var i = 1; i < ds_list_size(all_visible_objects); i++) {
+			var _obj = ds_list_find_value(all_visible_objects, i);
 		
 			if (_obj.attraction_weight > _current_attractor.attraction_weight) {
 				// Higher attraction
@@ -43,8 +64,7 @@ function find_highest_attractor() {
 				}
 			}
 		}
-	}
-	
+	}	
 	return _current_attractor;
 }
 
@@ -80,6 +100,7 @@ create_torch();
 image_xscale = 1;
 speed = 1;
 all_nearby_objects = ds_list_create();
+all_visible_objects = ds_list_create();
 current_attractor = noone;
 starting_path_torches = create_path_torches(level_path);
 
