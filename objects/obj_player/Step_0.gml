@@ -4,7 +4,11 @@ coin_guiding = false;
 
 if(!_seen_by_dude) {
 	WASD_set_speed_and_direction(self, move_speed);
-
+	sprite_index=spr_player_goblin_stand;
+	if(speed=0){
+		sprite_index=spr_player_goblin_hide;
+	}
+	
 	if (keyboard_check(vk_shift)) {
 		if(coins > 0) {
 			coin_guiding = true;
@@ -16,4 +20,6 @@ if(!_seen_by_dude) {
 			coins += -1;
 		}
 	}
+}else{
+	sprite_index=spr_player_goblin_hide;
 }
