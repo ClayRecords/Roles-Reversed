@@ -21,7 +21,6 @@
     {"name":"inst_60048386","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
     {"name":"inst_2BA8D582","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
     {"name":"inst_3A1C7E3D","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
-    {"name":"inst_5F020BFA","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
     {"name":"inst_698DB464","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},
   ],
   "isDnd": false,

@@ -146,6 +146,7 @@
     {"id":{"name":"path_enemy_1","path":"paths/path_enemy_1/path_enemy_1.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_barrel_big","path":"sprites/spr_barrel_big/spr_barrel_big.yy",},},
+    {"id":{"name":"obj_retry_button","path":"objects/obj_retry_button/obj_retry_button.yy",},},
     {"id":{"name":"str","path":"scripts/str/str.yy",},},
     {"id":{"name":"spr_editor_sound_loop","path":"sprites/spr_editor_sound_loop/spr_editor_sound_loop.yy",},},
     {"id":{"name":"spr_baddie_attack_up","path":"sprites/spr_baddie_attack_up/spr_baddie_attack_up.yy",},},

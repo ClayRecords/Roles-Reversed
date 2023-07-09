@@ -97,6 +97,7 @@
     {"name":"spr_gate_wood_2","order":8,"path":"sprites/spr_gate_wood_2/spr_gate_wood_2.yy",},
     {"name":"spr_button","order":3,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_barrel_big","order":1,"path":"sprites/spr_barrel_big/spr_barrel_big.yy",},
+    {"name":"obj_retry_button","order":10,"path":"objects/obj_retry_button/obj_retry_button.yy",},
     {"name":"str","order":1,"path":"scripts/str/str.yy",},
     {"name":"spr_editor_sound_loop","order":4,"path":"sprites/spr_editor_sound_loop/spr_editor_sound_loop.yy",},
     {"name":"spr_baddie_attack_up","order":1,"path":"sprites/spr_baddie_attack_up/spr_baddie_attack_up.yy",},
