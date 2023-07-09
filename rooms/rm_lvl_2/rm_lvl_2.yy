@@ -22,6 +22,7 @@
     {"name":"inst_1CCD5320_1","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},
     {"name":"inst_73AD5ADF","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},
     {"name":"inst_5893CC59","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},
+    {"name":"inst_6DDF2817","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -65,6 +66,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_351FB8D7_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73AD5ADF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":576.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5893CC59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":576.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DDF2817","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_help_manager","path":"objects/obj_help_manager/obj_help_manager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Below","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_Below","assets":[
