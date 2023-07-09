@@ -12,11 +12,11 @@ if(l4CC419CD_0)
 	/// @DnDHash : 05117FEB
 	/// @DnDComment : Draw the HUD coin sprite
 	/// @DnDParent : 4CC419CD
-	/// @DnDArgument : "x" "1100"
+	/// @DnDArgument : "x" "1250"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "sprite" "spr_hud_coin"
 	/// @DnDSaveInfo : "sprite" "spr_hud_coin"
-	draw_sprite(spr_hud_coin, 0, 1100, 25);
+	draw_sprite(spr_hud_coin, 0, 1250, 25);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Font
 	/// @DnDVersion : 1
@@ -32,9 +32,9 @@ if(l4CC419CD_0)
 	/// @DnDHash : 0C56D182
 	/// @DnDComment : Draw the player's coins value$(13_10)$(13_10)Taken from the player$(13_10)using obj_player.coins
 	/// @DnDParent : 4CC419CD
-	/// @DnDArgument : "x" "1135"
-	/// @DnDArgument : "y" "15"
+	/// @DnDArgument : "x" "1285"
+	/// @DnDArgument : "y" "12"
 	/// @DnDArgument : "caption" ""x""
 	/// @DnDArgument : "var" "obj_player.coins"
-	draw_text(1135, 15, string("x") + string(obj_player.coins));
+	draw_text(1285, 12, string("x") + string(obj_player.coins));
 }
