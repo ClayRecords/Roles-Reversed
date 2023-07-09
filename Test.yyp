@@ -139,6 +139,7 @@
     {"id":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},},
     {"id":{"name":"fnt_help","path":"fonts/fnt_help/fnt_help.yy",},},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
+    {"id":{"name":"rm_lvl_7","path":"rooms/rm_lvl_7/rm_lvl_7.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
     {"id":{"name":"spr_bones_pile_1","path":"sprites/spr_bones_pile_1/spr_bones_pile_1.yy",},},
     {"id":{"name":"spr_gate_wood_2","path":"sprites/spr_gate_wood_2/spr_gate_wood_2.yy",},},
@@ -210,6 +211,7 @@
     {"id":{"name":"spr_next_level","path":"sprites/spr_next_level/spr_next_level.yy",},},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},},
     {"id":{"name":"snd_finish_level","path":"sounds/snd_finish_level/snd_finish_level.yy",},},
+    {"id":{"name":"pth_dude_7","path":"paths/pth_dude_7/pth_dude_7.yy",},},
     {"id":{"name":"snd_music_rampage","path":"sounds/snd_music_rampage/snd_music_rampage.yy",},},
     {"id":{"name":"snd_player_defeated","path":"sounds/snd_player_defeated/snd_player_defeated.yy",},},
     {"id":{"name":"obj_resume_button","path":"objects/obj_resume_button/obj_resume_button.yy",},},
@@ -231,6 +233,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_lvl_7","path":"rooms/rm_lvl_7/rm_lvl_7.yy",},},
     {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
     {"roomId":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
     {"roomId":{"name":"rm_lvl_3","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},},
