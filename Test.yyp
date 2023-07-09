@@ -229,12 +229,12 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},},
     {"roomId":{"name":"rm_lvl_5","path":"rooms/rm_lvl_5/rm_lvl_5.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
     {"roomId":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
     {"roomId":{"name":"rm_lvl_3","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},},
-    {"roomId":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},},
-    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_lvl_test","path":"rooms/rm_lvl_test/rm_lvl_test.yy",},},
   ],
   "TextureGroups": [
