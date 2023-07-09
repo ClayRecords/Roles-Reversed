@@ -139,6 +139,7 @@
     {"name":"obj_chest","order":4,"path":"objects/obj_chest/obj_chest.yy",},
     {"name":"obj_menu_button","order":6,"path":"objects/obj_menu_button/obj_menu_button.yy",},
     {"name":"spr_entrance_particle","order":8,"path":"sprites/spr_entrance_particle/spr_entrance_particle.yy",},
+    {"name":"obj_floor_torch_visual","order":9,"path":"objects/obj_floor_torch_visual/obj_floor_torch_visual.yy",},
     {"name":"seq_win","order":3,"path":"sequences/seq_win/seq_win.yy",},
     {"name":"spr_spikefloor_hidden","order":1,"path":"sprites/spr_spikefloor_hidden/spr_spikefloor_hidden.yy",},
     {"name":"spr_gate_iron_2","order":6,"path":"sprites/spr_gate_iron_2/spr_gate_iron_2.yy",},

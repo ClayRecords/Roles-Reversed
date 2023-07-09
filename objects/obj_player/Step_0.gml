@@ -15,7 +15,7 @@ if (instance_exists(obj_dude)) {
 				coin_guiding = true;
 			}
 		}
-		if (keyboard_check_released(vk_space)) {
+		if (keyboard_check_pressed(vk_space)) {
 			if(coins > 0) {
 				instance_create_layer(x + 0, y + 0, "Instances", obj_coin);
 				coins += -1;
