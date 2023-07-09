@@ -1,14 +1,7 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 6B038878
-instance_destroy();
+if (point_distance(x, y, obj_dude.x, obj_dude.y) < obj_dude.move_speed) {
+	// Actually in middle of coin
 
-/// @DnDAction : YoYo Games.Particles.Effect
-/// @DnDVersion : 1
-/// @DnDHash : 7E43C146
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "type" "7"
-/// @DnDArgument : "where" "1"
-/// @DnDArgument : "color" "$FF00AAFF"
-effect_create_above(7, x + 0, y + 0, 0, $FF00AAFF & $ffffff);
+	instance_destroy();
+
+	effect_create_above(7, x + 0, y + 0, 0, $FF00AAFF & $ffffff);
+}
