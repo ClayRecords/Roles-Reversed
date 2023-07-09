@@ -3,7 +3,7 @@ function find_and_move_to_attractor() {
 	var _current_attractor = find_highest_attractor()
 
 	if (_current_attractor != noone) {
-		print("Attractors in sight")
+		//print("Attractors in sight")
 	
 		if (point_distance(x, y, _current_attractor.x, _current_attractor.y) <= speed ) {
 			x = _current_attractor.x;
@@ -17,7 +17,7 @@ function find_and_move_to_attractor() {
 			}
 		}
 	} else {
-		print("Nothing in sight")
+		//print("Nothing in sight")
 		speed = 0;
 	}
 }
@@ -25,7 +25,7 @@ function find_and_move_to_attractor() {
 
 
 if (current_path == noone) {
-	print("Not on path")
+	//print("Not on path")
 	find_and_move_to_attractor();
 } else {
 	if (path_position == 1) {

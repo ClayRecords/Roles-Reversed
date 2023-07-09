@@ -106,6 +106,7 @@
     {"name":"snd_shield_deactivate","order":6,"path":"sounds/snd_shield_deactivate/snd_shield_deactivate.yy",},
     {"name":"snd_footstep","order":1,"path":"sounds/snd_footstep/snd_footstep.yy",},
     {"name":"spr_heart_pickup","order":2,"path":"sprites/spr_heart_pickup/spr_heart_pickup.yy",},
+    {"name":"obj_start_door_open","order":11,"path":"objects/obj_start_door_open/obj_start_door_open.yy",},
     {"name":"snd_music_menu","order":1,"path":"sounds/snd_music_menu/snd_music_menu.yy",},
     {"name":"snd_bat_shoot","order":7,"path":"sounds/snd_bat_shoot/snd_bat_shoot.yy",},
     {"name":"obj_help_close_button","order":8,"path":"objects/obj_help_close_button/obj_help_close_button.yy",},
